@@ -122,7 +122,7 @@ public final class ResourceOperationAuthorization {
                     .info(
                             logRenderer
                                     .authorization(
-                                            authorizableRequestContext, operation, resourcePattern, true,
+                                            authorizableRequestContext, operation, resourcePattern, false,
                                             "kaf_04 does not support authorizing username " + "<[" + userName + "]>"
                                     )
                     );
